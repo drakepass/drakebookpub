@@ -14,9 +14,10 @@
 
    cluster.initial_master_nodes: ["node-1"]  //除掉node-2
 
-2. 追加
+2. elasticsearch.yml最后追加
 
    http.cors.enabled: true 
+   
    http.cors.allow-origin: "*"
 
 ### 常用命令
